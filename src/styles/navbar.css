@@ -1,0 +1,31 @@
+html{
+    overflow-x: hidden;
+
+}
+body{
+    overflow: hidden;
+}
+.navBar{
+    background-color: rgb(12, 99, 139);
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+    padding: 20px;
+}
+.navContent{
+    display: flex;
+    list-style: none; 
+    width: 100%;
+    position: relative;
+    left: 660px;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    
+}
+.nav-text{
+    font-size: 15px;
+    color: black;
+    letter-spacing: 2px;
+    justify-content: space-evenly;
+
+}
