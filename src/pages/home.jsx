@@ -4,6 +4,7 @@ import img1 from "../images/1.jpg"
 import img2 from "../images/2.jpg"
 import img3 from "../images/3.jpg"
 
+// TODO:NEED TO ADD tYPE WRITER EFFECT
 
 export default function Home(){
     return(
