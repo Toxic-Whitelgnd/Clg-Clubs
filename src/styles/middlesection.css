@@ -3,4 +3,13 @@
 }
 #availableclub{
     background-color:rgb(204, 27, 56);
+    height: auto;
+}
+#club{
+    background-color: bisque;
+    height: 600px;
+}
+#HowTocreate{
+    background-color: burlywood;
+    height: 600px;
 }
