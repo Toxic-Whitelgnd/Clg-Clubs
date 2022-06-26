@@ -13,16 +13,20 @@ export default function MiddleComponent(){
         <div id="home">
           <Home />  
         </div>
+        {/* clubs settings */}
+        <div id="club">
+          <Club />
+        </div>
+        
         {/* avaliable clus settings */}
         <div id="availableclub">
               <AvailableClub />
         </div>
-        <div id="club">
-          <Club />
-        </div>
+     
         <div id="HowTocreate">
           <CreateClubs />
         </div>
+        
         </>
     )
 }

@@ -6,8 +6,9 @@
     height: auto;
 }
 #club{
-    background-color: bisque;
-    height: 600px;
+    background: rgb(12,99,139);
+    background: linear-gradient(155deg, rgba(12,99,139,1) 42%, rgba(29,134,127,1) 51%, rgba(36,93,166,1) 63%);
+    height: 1000px;
 }
 #HowTocreate{
     background-color: burlywood;
