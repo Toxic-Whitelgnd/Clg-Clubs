@@ -16,7 +16,7 @@ export default function NavBarComp(){
                     <li className="nav-text"><Link to="club" spy={true} smooth={true}>Club</Link></li>
                     <li className="nav-text"><Link to="availableclub" spy={true} smooth={true}>AvailableClub</Link></li>   
                     <li className="nav-text"><Link to="HowTocreate" spy={true} smooth={true}>CreateClubs</Link></li>
-                    <li className="nav-text"><Link to="about" spy={true} smooth={true}>Aboutus</Link></li>
+                    <li className="nav-text"><Link to="aboutus" spy={true} smooth={true}>Aboutus</Link></li>
                 </ul>
             </div>
         </>

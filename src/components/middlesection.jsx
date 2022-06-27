@@ -5,6 +5,7 @@ import {Link} from 'react-scroll'
 import AvailableClub from "../pages/availableclubs";
 import Club from "../pages/club";
 import CreateClubs from "../pages/createclub";
+import Aboutus from "../pages/aboutus"
 
 export default function MiddleComponent(){
     return(
@@ -25,6 +26,11 @@ export default function MiddleComponent(){
      
         <div id="HowTocreate">
           <CreateClubs />
+        </div>
+        <div id="aboutus"> 
+          <Aboutus />
+
+
         </div>
         
         </>

@@ -8,9 +8,13 @@
 #club{
     background: rgb(12,99,139);
     background: linear-gradient(155deg, rgba(12,99,139,1) 42%, rgba(29,134,127,1) 51%, rgba(36,93,166,1) 63%);
-    height: 1000px;
+    height: auto;
 }
 #HowTocreate{
-    background-color: burlywood;
-    height: 600px;
+    background-color: rgb(10, 10, 10);
+    height: auto;
+}
+#aboutus{
+    background-color:black;
+    height: auto;
 }

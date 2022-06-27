@@ -13,11 +13,11 @@ export default function AvailableClub(){
         </div>
         <div className="Containers">
         {/* need to start code from here */}
-        <form>
+        {/* <form>
             <label htmlfor="search">Search</label>
             <input id="search" type="search" pattern=".*\S.*" required/>
             <span className="caret"></span>
-        </form>
+        </form> */}
         <div className="avContainer">
             <div className="containerwrap">
                {

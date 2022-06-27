@@ -136,11 +136,11 @@ label {
 /* end of search box */
 .Containers{
     padding: 5px;
-    background-color: cadetblue;
+   
 
 }
 .avContainer{
-	background-color: chartreuse;
+	
 	padding: 12px;
 	height: auto;
 }
@@ -213,4 +213,16 @@ label {
 	font-size: 16px;
 	color: rgb(0, 14, 139);
 	padding:8px;
+}
+
+/* media queries */
+@media only screen and (max-width: 640px) {
+.containerwrap{
+	display:grid;
+	grid-template-columns: auto;
+	row-gap: 70px;
+	justify-content:center;
+	text-align: center;
+}
+
 }

@@ -29,3 +29,33 @@ body{
     justify-content: space-evenly;
 
 }
+
+/* media queries */
+@media only screen and (max-width: 1200px) {
+.navContent{
+    left: 300px;
+}
+
+}
+@media only screen and (max-width: 960px) {
+    .navContent{
+        left: 150px;
+    }
+    
+    }
+@media only screen and (max-width: 770px) {
+        .navContent{
+            left: 100px;
+        }
+}
+@media only screen and (max-width:500px) {
+    .navContent{
+        left: 50px;
+        /* need to make as a hamberger menu tommorrow */
+    }
+    h1{
+        font-size: 20px;
+    }
+    
+}
+/* 480px */

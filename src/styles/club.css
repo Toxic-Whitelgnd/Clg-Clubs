@@ -7,6 +7,7 @@
     grid-template-columns: auto auto ;
     justify-content: space-evenly;
     margin: 20px;
+    margin-bottom: 0px;
     justify-content: center;
     align-items: center;
 
@@ -242,3 +243,124 @@
     left:87%;
     top: 170px;
 }
+
+/* media queries */
+@media only screen and (max-width: 900px) {
+    .clubcard{
+        display: grid;
+        row-gap: 30px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-template-columns: auto  ;
+        justify-content: space-evenly;
+        margin: 20px;
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+    
+        min-height: 80vh;
+    }
+    .cards:hover{
+        width:600px;
+        transition-delay: 0s;
+        
+    
+    }
+    .cards:hover .content{
+        left:-40%;
+        opacity: 1;
+        visibility:visible;
+        transition-delay: 0.5s;
+    
+    }
+    .cards .musicb{
+        height: 480px;
+        
+    
+    }
+    .cards .codeb{
+        height: 250px;
+       
+    
+    }
+    .cards .esportb{
+        height:400px;
+    }
+    
+
+}
+@media only screen and (max-width: 604px) {
+
+    .cards .circle::before{
+        
+    width: 60%;
+    height: 60%;
+    clip-path:circle(60px at center) ;    
+
+}
+/* .esport,.musicb,.code,.dance{
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
+} */
+.cards:hover{
+    width:150px;
+    transition-delay: 0s;
+    justify-content:center;
+
+
+}
+.cards:hover .content{
+    /* left:-80%; */
+    opacity: 1;
+    visibility:visible;
+    transition-delay: 0.5s;
+
+
+}
+.cards:hover .content p{
+    font-size:12px;
+}
+.cards .musicb{
+    height: 150px;
+    
+
+}
+.cards .codeb{
+    height: 150px;
+   
+
+}
+.cards .esportb{
+    height:150px;
+}
+.cards .danceb{
+    height:150px;
+}
+
+.cards:hover .content{
+    left:-60%;
+    opacity: 1;
+    visibility:visible;
+    transition-delay: 0.5s;
+    font-size:3px;
+    justify-content:center;
+}
+
+.card .circle{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 60%;
+    height: 60%;
+    background:rgba(29,134,127,1);
+    border-radius:20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+
