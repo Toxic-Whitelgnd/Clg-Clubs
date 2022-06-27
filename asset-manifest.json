@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Clg-Clubs/static/css/main.846cf9cb.css",
+    "main.js": "/Clg-Clubs/static/js/main.1915a256.js",
+    "static/media/3.jpg": "/Clg-Clubs/static/media/3.9995b28e22b13f3ed4f1.jpg",
+    "static/media/mbandt.png": "/Clg-Clubs/static/media/mbandt.e350c5fa4957f9418437.png",
+    "static/media/1.jpg": "/Clg-Clubs/static/media/1.5083d0ed840a5dce0426.jpg",
+    "static/media/2.jpg": "/Clg-Clubs/static/media/2.dc2179f5137ddc0f8a5d.jpg",
+    "static/media/esports.png": "/Clg-Clubs/static/media/esports.fe4d9b266b44609bb7d9.png",
+    "index.html": "/Clg-Clubs/index.html",
+    "main.846cf9cb.css.map": "/Clg-Clubs/static/css/main.846cf9cb.css.map",
+    "main.1915a256.js.map": "/Clg-Clubs/static/js/main.1915a256.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.846cf9cb.css",
+    "static/js/main.1915a256.js"
+  ]
+}
